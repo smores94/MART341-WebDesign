@@ -1,0 +1,6 @@
+What is a directory, and what is its relationship to files?
+A directory is comparable to folder on a desktop - it can "hold" other files related to the title of the folder.
+How are VCS useful?
+It allows you to go back to a previous version, before changes were made, it shows made and pending changes and allows them to be undone, which gives more control over projects
+Do you have a favorite artistic medium? Why is it your favorite?
+While I love painting, it's more of an "adult playtime" - I'm not very talented (I'm not being modest, haha) but I do enjoy playing with colors and textures. 
