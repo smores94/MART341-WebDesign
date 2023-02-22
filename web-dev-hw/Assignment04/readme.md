@@ -9,3 +9,5 @@ I mainly use Chrome - I highly dislike edge, my second choice is usually firefox
 [VSCScreenshot] (../images/screenshotVsc.PNG)
 
 [ClickHere] (https://motionographer.com)
+
+what is happening?
