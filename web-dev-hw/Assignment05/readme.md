@@ -6,4 +6,4 @@ Link to your screenshot using a relative URL. (Just like we've done in the last 
 
 [Wayback](./Images/wayback machine yahoo 9_11.PNG)
 <br>
-[Current](./Images/yahoo now.PNG)
+[Current](../Images/yahoo now.PNG)
