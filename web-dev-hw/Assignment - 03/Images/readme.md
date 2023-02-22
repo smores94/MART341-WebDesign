@@ -9,4 +9,6 @@ Link to your responses.txt file with a relative URL.
 
 [Responses](./responses.txt)
 
-[Screenshot](./Images/assignment 3 snip.PNG)
+[Screenshot](./Images/assignment3snip.PNG)
+
+
