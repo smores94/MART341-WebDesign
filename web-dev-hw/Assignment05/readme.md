@@ -4,6 +4,6 @@ I went to yahoo on september 11, 2001 - that might seem morbid and maybe it is a
 
 Link to your screenshot using a relative URL. (Just like we've done in the last few weeks!)
 
-./Images/wayback machine yahoo 9_11.PNG
+[Wayback](./Images/wayback machine yahoo 9_11.PNG)
 <br>
-./Images/yahoo now.PNG
+[Current](./Images/yahoo now.PNG)
