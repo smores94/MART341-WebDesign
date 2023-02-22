@@ -6,6 +6,7 @@ the difference between IP and DNS and how they are related
 How computer and servers figure out where the user wants to go
 
 Link to your responses.txt file with a relative URL.
-Images\responses.txt
-Link to your screenshot with a relative URL.
-Images\assignment 3 snip.PNG
+
+[Responses](./responses.txt)
+
+[Screenshot](./Images/assignment 3 snip.PNG)
