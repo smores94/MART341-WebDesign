@@ -6,7 +6,8 @@ Structural markup explains the purpose of an elememt in relation to other elemen
 
 Link to your screenshot using a relative URL. (Just like we've done in the last few weeks!)
 
-[Screenshot1](./Images/screenshot 1.PNG)
+[Screenshot2](./Images/screenshot1.PNG)
+
 <br>
 
 [Screenshot2](./Images/screenshot2.PNG)
