@@ -4,7 +4,7 @@ Web browsers function by sending requests to web servers for web resources; such
 
 I mainly use Chrome - I highly dislike edge, my second choice is usually firefox
 
-[assignment4screenshot](.images/screenshot4assignment4.PNG)
+[assignment4screenshot](./images/screenshot4assignment4.PNG)
 
 [VSCScreenshot](./images/screenshotVsc.PNG)
 
