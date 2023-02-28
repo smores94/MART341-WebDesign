@@ -1,0 +1,12 @@
+What is the relationship between an IP address and the DNS?
+An IP address is the numbers that identify each computerm using the internet. DNS translates names of websites
+like, www.whatupyo.com into a string of numbers that computers understand (IP addresses).
+
+What is a cookie?
+A cookie is a bit of data that allows the website to recognize when a user returns to a particular website, 
+amongst other uses.
+
+What are the three essential parts of a URL?
+1) the Protocol - how the web browser will communicate with the web server
+2) the domain name - the direction to the site and its content
+3) The Path - how to navigate directories
