@@ -2,7 +2,7 @@
 
  I feel like I mainly come across forms for putting in my payment information! I tried making that form and a shopping cart but both of those are pretty far beyond my "skills"
 
-[Screenshot1]()./Images/aboutscreenshot.PNG)
+[Screenshot1](./Images/aboutscreenshot.PNG)
 
 <br>
 
