@@ -1,13 +1,13 @@
-In your README.md file, please describe the difference between semantic and structural markup.
+ In your README.md file, please describe any forms you've come across while browsing the web. What purposes do they serve?
 
-Semantics explains the purpose of an element - semantic itself means related to language which helps explain why it is used to describe the "purpose" that the semantic markup is making - not visual
- 
-Structural markup explains the purpose of an elememt in relation to other elements
+ I feel like I mainly come across forms for putting in my payment information! I tried making that form and a shopping cart but both of those are pretty far beyond my "skills"
 
-Link to your screenshot using a relative URL. (Just like we've done in the last few weeks!)
-
-[Screenshot1](./Images/screenshot1.PNG)
+[Screenshot1]()./Images/aboutscreenshot.PNG)
 
 <br>
 
-[Screenshot2](./Images/screenshot2.PNG)
+[Screenshot2](./Images/indexscreenshot.PNG)
+
+<br>
+
+[Screenshot3](./Images/serviceScreenshot.PNG)
