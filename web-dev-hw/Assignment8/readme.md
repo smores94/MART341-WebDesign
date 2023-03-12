@@ -1,6 +1,6 @@
- In your README.md file, please describe any forms you've come across while browsing the web. What purposes do they serve?
-
- I feel like I mainly come across forms for putting in my payment information! I tried making that form and a shopping cart but both of those are pretty far beyond my "skills"
+What is an affordance?
+What are the advantages and disadvantages of using a third-party service like YouTube or Vimeo to host your videos?
+Optional: What challenges did you face this week with this assignment? How did you overcome them?
 
 [Screenshot1](./Images/aboutscreenshot.PNG)
 
