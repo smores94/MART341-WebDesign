@@ -10,11 +10,11 @@ Optional: What challenges did you face this week with this assignment? How did y
 
 Read about optimizing images too late into the process. Need to fix that for this project and one in another class. 
 
-[Screenshot1] (./Images/about screenshot.PNG)
+[Screenshot1](./Images/aboutscreenshot.PNG)
 <br>
 
-[Screenshot2] (./Images/index screenshot.PNG)
+[Screenshot2](./Images/indexscreenshot.PNG)
 
 <br>
 
-[Screenshot3] (./Images/service screeentshot.PNG)
+[Screenshot3](./Images/servicescreeentshot.PNG)
