@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .light {
     width: 10px;
     height: 10px;
@@ -27,3 +28,34 @@
   padding-left:60px; } 
 
 
+=======
+.light {
+    width: 10px;
+    height: 10px;
+    background-color: linen;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .myDiv {
+    border: 5px outset rgb(61, 5, 5);
+    background-color:rgb(255, 235, 205);    
+    text-align:center;
+  }
+
+ .Indentbody { 
+  background-repeat:repeat-y; 
+  padding-left:60px; } 
+
+
+>>>>>>> b49e50bcb7c17ed27ff9ed05d92878811b8a8084
