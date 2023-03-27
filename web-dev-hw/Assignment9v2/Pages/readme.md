@@ -10,7 +10,7 @@ After we come back from spring break we will start to dive into CSS and expand o
 I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
 
-[historicalfiction](./Images/historicalfiction.PNG)
+[historicalfiction](../historicalfiction.PNG)
 <br>
 
 
