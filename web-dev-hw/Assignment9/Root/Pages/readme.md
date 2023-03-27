@@ -3,19 +3,19 @@ I had a lot of difficulty, for some reason, with relative paths. Had to use full
 
 
 After we come back from spring break we will start to dive into CSS and expand on styling, which helps us "decorate" HTML. Is there anything you're anxious or excited to learn about in this new section?
-
+/
 I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
-[fantasypage](./Root/Pages/fantasy.html)
+[fantasypage](./Root/Media/Images/screenshots/fantasypagess.PNG)
 <br>
 
-[genre](./Root/Pages/genre.html)
+[genre](./Root/Media/Images/screenshots/genress.PNG)
 <br>
 
-[quiz](./Root/Pages/service.html)
+[quiz](./Root/Media/Images/screenshots/service_quizss.PNG)
 <br>
 
-[library](./Root/Pages/library.html)
+[library](./Root/Media/Images/screenshots/libraryss.PNG)
 <br>
 
-[index](./Root/index.html)
+[index](./Root/Media/Images/screenshots/indexss.PNG)
