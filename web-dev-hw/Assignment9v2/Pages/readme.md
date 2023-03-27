@@ -14,17 +14,17 @@ I think I'm making things harder for myself, so I'm hoping I can get css going b
 <br>
 
 
-[genre](../Images\genre.PNG)
+[genre](../Images/genre.PNG)
 <br>
 
 
-[quiz](../Images\quizpage.jpg)
+[quiz](../Images/quizpage.jpg)
 <br>
 
 
-[library](../Images\libraryss.PNG)
+[library](../Images/libraryss.PNG)
 <br>
 
 
-[index](../Images\indexscreenshot.PNG)
+[index](../Images/indexscreenshot.PNG)
 
