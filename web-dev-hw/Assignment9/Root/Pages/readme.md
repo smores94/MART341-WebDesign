@@ -1,20 +1,21 @@
-What is an affordance?
-The use of something - for example, when you see a light switch, you assume it will turn a light on. The switch affords the light being on. It is the function of something.
+Briefly recap your experience learning HTML. What was old, new, interesting, or difficult to learn?
+I had a lot of difficulty, for some reason, with relative paths. Had to use full paths to make it function. Not sure if this is because 1/2 way through I decided to rearrange my file structure. Didn't realize how much of java I had forgot. Going to havev to do a refresher on that.
 
-What are the advantages and disadvantages of using a third-party service like YouTube or Vimeo to host your videos?
-Advantages - the site that hosts the media provides the bandwidth for watching and downloading; easy to embedd video from sites like youtube or vimeo; other party's that might not have seen your website may come upon your video, providing additional exposure.
 
-Disadvantages - loss of some controlm - if they change their links, it can break your video/website.
+After we come back from spring break we will start to dive into CSS and expand on styling, which helps us "decorate" HTML. Is there anything you're anxious or excited to learn about in this new section?
 
-Optional: What challenges did you face this week with this assignment? How did you overcome them?
+I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
-Read about optimizing images too late into the process. Need to fix that for this project and one in another class. 
-
-[Screenshot1](./Images/aboutscreenshot.PNG)
+[fantasypage](./Root/Media/Images/screenshots/fantasypagess.PNG)
 <br>
 
-[Screenshot2](./Images/indexscreenshot.PNG)
-
+[genre](./Root/Media/Images/screenshots/genress.PNG)
 <br>
 
-[Screenshot3](./Images/servicescreeentshot.PNG)
+[quiz](./Root/Media/Images/screenshots/service_quizss.PNG)
+<br>
+
+[library](./Root/Media/Images/screenshots/libraryss.PNG)
+<br>
+
+[index](./Root/Media/Images/screenshots/indexss.PNG)
