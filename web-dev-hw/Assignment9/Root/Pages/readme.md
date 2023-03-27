@@ -6,7 +6,7 @@ After we come back from spring break we will start to dive into CSS and expand o
 <br>
 I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
-[fantasypage](.Root/Media/Images/fantasypagess.PNG)
+[fantasypage](Root/Media/Images/fantasypagess.PNG)
 <br>
 
 [genre](./Root/Media/Images/screenshots/genress.PNG)
