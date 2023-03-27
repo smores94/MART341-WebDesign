@@ -6,7 +6,7 @@ After we come back from spring break we will start to dive into CSS and expand o
 
 I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
-[fantasypage](./Root/Media/Images/screenshots/fantasypagess.PNG)
+[fantasypage](./C:/Users/rosek/Documents/1. Spring 23/MART 341-webdesign/Rose-Krieg-MART341-WebDesign/Rose-Krieg-MART341-WebDesign/web-dev-hw/Assignment9/Root/Pages/fantasy.html)
 <br>
 
 [genre](./Root/Media/Images/screenshots/genress.PNG)
