@@ -6,16 +6,16 @@ After we come back from spring break we will start to dive into CSS and expand o
 
 I think I'm making things harder for myself, so I'm hoping I can get css going better (for myself)
 
-[fantasypage](./C:/Users/rosek/Documents/1. Spring 23/MART 341-webdesign/Rose-Krieg-MART341-WebDesign/Rose-Krieg-MART341-WebDesign/web-dev-hw/Assignment9/Root/Pages/fantasy.html)
+[fantasypage](./Root/Pages/fantasy.html)
 <br>
 
-[genre](./Root/Media/Images/screenshots/genress.PNG)
+[genre](./Root/Pages/genre.html)
 <br>
 
-[quiz](./Root/Media/Images/screenshots/service_quizss.PNG)
+[quiz](./Root/Pages/service.html)
 <br>
 
-[library](./Root/Media/Images/screenshots/libraryss.PNG)
+[library](./Root/Pages/library.html)
 <br>
 
-[index](./Root/Media/Images/screenshots/indexss.PNG)
+[index](./Root/index.html)
