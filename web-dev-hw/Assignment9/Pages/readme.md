@@ -9,7 +9,7 @@ I think I'm making things harder for myself, so I'm hoping I can get css going b
 [fantasypage](./Media/Images/fantasypagess.PNG)
 <br>
 
-[genre](./Root/Media/Images/screenshots/genress.PNG)
+[genre](./Media/Images/genress.PNG)
 <br>
 
 [quiz](./Root/Media/Images/screenshots/service_quizss.PNG)
