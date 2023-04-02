@@ -12,7 +12,7 @@ I don't think I have overcame them - I tried implementing part of my style sheet
 figure out why some of the headings won't work. 
 
 
-[palette](./Img\colortheme_bierstadt.jpeg)
+[palette](./Img/colortheme_bierstadt.jpeg)
 <br>
 
 
