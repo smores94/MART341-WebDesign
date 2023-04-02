@@ -1,0 +1,138 @@
+
+* {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+body {
+  background: rgb(89,25,2);
+  background: linear-gradient(90deg, rgba(89,25,2,1) 17%, rgba(211,150,127,1) 46%, rgba(250,207,127,1) 84%);
+  /* Sets the background to a linear gradient using palette */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Draw a yellow border 2px thick around ONLY the h3 element. */
+#artwork-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  border: 2px solid rgba(250,207,127,1);
+  /* Set a unique background color. */
+  background-color: rgba(211,150,127,1);
+}
+
+
+header {
+  background-color: #f8f4f4;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #FACF7F;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  section {
+  margin-bottom: 40px;
+  }
+  
+  section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+  
+  .artwork img {
+  max-width: 100%;
+  }
+  
+
+  .artwork p {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  footer p {
+  font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  nav {
+  margin-top: 20px;
+  }
+  
+  nav ul {
+  flex-direction: column;
+  }
+  
+  nav ul li {
+  margin-right: 0;
+  margin-bottom: 10px;
+  }
+  
+  main {
+  padding: 20px 10px;
+  }
+  
+  .artwork {
+  margin-bottom: 20px;
+  }
+  
+  .artwork h3 {
+  font-size: 1.2rem;
+  }
+  
+  footer {
+  padding: 10px;
+  }
+  
+  footer p {
+  font-size: 0.7rem;
+  }
+}
+  width p {
+  max-width: 1200px}
+
