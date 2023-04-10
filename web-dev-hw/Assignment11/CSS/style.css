@@ -1,4 +1,12 @@
 
+@font-face {
+  font-family: 'Sedgwick';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Sedgwick+Ave+Display&display=swap');
+  font-style: normal;
+}
+
+
+
 * {
   box-sizing: border-box;
   margin: 10;
@@ -6,7 +14,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Sedgwick', sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -195,27 +203,48 @@ header a:hover {
   color: #071040;
   }
   
-  /* Apply a style to the input fields in the contact form */
-  form input[type="text"], form input[type="email"], form textarea {
-  background-color: #3F2E40;
-  border: 2px solid #BFA393;
-  color: #BFA393;
-  padding: 10px;
-  margin: 5px;
-  width: 100%;
+  //* Apply a hover
 
+/* Add a hover effect to the submit button in the contact form */
+form input[type="submit"]:hover {
+  background-color: #3F2E40;
+  color: #BFA393;
+  cursor: pointer;
   }
   
-  /* Apply a style to the submit button in the contact form */
-  form input[type="submit"] {
-  background-color: #BFA393;
-  border: none;
-  color: #3F2E40;
+  /* Apply a style to the success message in the contact form */
+  .success-message {
+  background-color: #D3967C;
+  color: #fff;
   padding: 10px;
-  margin: 5px;
-  cursor: pointer;
-  width: 100%;
+  margin-top: 10px;
+  text-align: center;
   }
+  
+  /* Apply a style to the error message in the contact form */
+  .error-message {
+  background-color: #B33E3A;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  }
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    background: rgb(7,16,64);
+    background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
+    /* Sets the background to a linear gradient using palette */
+    height: 100%;
+    }
+
+  
   @font-face {
     font-family: 'sedgewick';
     src: url('/Fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
