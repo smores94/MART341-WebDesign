@@ -15,11 +15,11 @@ It went ok. I would have liked to work on the drop down more, I ended up deletin
 <br>
 
 
-[screenshot2](./Img/screenshot2.JPG)
+[screenshot2](../Img/screenshot2.JPG)
 <br>
 
 
-[screenshot3](./Img/screenshot3.JPG)
+[screenshot3](../Img/screenshot3.JPG)
 <br>
 
 https://smores94.github.io/Rose-Krieg-MART341-WebDesign/web-dev-hw/Assignment10/Pages/index.html
