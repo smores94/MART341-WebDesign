@@ -11,7 +11,7 @@ Optional: how did this week's assignment go? What challenges did you face, and h
 It went ok. I would have liked to work on the drop down more, I ended up deleting some of the parts I was working on so I could get it turned in.
 
 
-[screenshot1](./Img/screenshot1.JPG)
+[screenshot1](../Img/screenshot1.JPG)
 <br>
 
 
