@@ -1,0 +1,5 @@
+
+const lights = document.querySelector('.lights-container img');
+lights.classList.add('twinkle');
+
+

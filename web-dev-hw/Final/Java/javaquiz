@@ -1,0 +1,30 @@
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class BookQuizServlet extends HttpServlet {
+  public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    response.setContentType("text/html");
+    PrintWriter out = response.getWriter();
+    
+    int score = Integer.parseInt(request.getParameter("q1"));
+    
+    String message = "";
+    
+    if (score >= 5) {
+      message = "You might like non-fiction or historical books.";
+    } else if (score >= 3) {
+      message = "You might like sci-fi or fiction books.";
+    } else {
+      message = "You might like mystery or romance books.";
+    }
+    
+    out.println("<html><head><title>Book Quiz Results</title></head><body>");
+    out.println("<h2>Book Quiz Results</h2>");
+    out.println("<p>" + message + "</p>");
+    out.println("</body></html>");
+  }
+}

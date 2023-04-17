@@ -1,0 +1,45 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+/* Consolidated font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+  font-family: 'Sedgwick Ave Display', cursive, sans-serif
+}
+
+p, ul, .button {
+  font: 2em 'Sedgwick Ave Display', cursive, sans-serif;
+  text-align: center;
+  margin: 0.2em 0;
+}
+
+
+h2 {
+  color: #071040;
+  font-size: 2em;
+}
+
+
+p {
+  color: #071040;
+}
+
+.change-01 {
+  font-variant: small-caps;
+}
+
+.button {
+  background-color: white;
+  color: #3F4B59;
+  border: 2px solid #0D0D0D;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  font-variant: initial;
+}
+

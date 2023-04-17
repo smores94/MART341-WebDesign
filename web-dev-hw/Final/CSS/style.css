@@ -1,0 +1,496 @@
+
+@font-face {
+  font-family: 'Sedgwick';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Sedgwick+Ave+Display&display=swap');
+  font-style: normal;
+}
+
+.lights-container {
+  position: relative;
+}
+
+.lights-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+.lights-container img {
+  position: relative;
+  z-index: 2;
+}
+
+.lights-container .twinkle {
+  animation: twinkle 1s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+}
+
+body {
+  font-family: 'Sedgwick', sans-serif;
+  background-color: #f2f2f2;
+}
+
+body {
+background: rgb(7,16,64);
+background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
+  /* Sets the background to a linear gradient using palette */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Draw a yellow border 2px thick around ONLY the h3 element. */
+#artwork-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  border: 2px solid rgba(250,207,127,1);
+  /* Set a unique background color. */
+  background-color: rgba(211,150,127,1);
+}
+
+
+header {
+  background-color: #f8f4f4;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #FACF7F;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  section {
+  margin-bottom: 40px;
+  }
+  
+  section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+  
+  .artwork img {
+  max-width: 100%;
+  }
+  
+
+  .artwork p {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  footer p {
+  font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  nav {
+  margin-top: 20px;
+  }
+  
+  nav ul {
+  flex-direction: column;
+  }
+  
+  nav ul li {
+  margin-right: 0;
+  margin-bottom: 10px;
+  }
+  
+  main {
+  padding: 20px 10px;
+  }
+  
+  .artwork {
+  margin-bottom: 20px;
+  }
+  
+  .artwork h3 {
+  font-size: 1.2rem;
+  }
+  
+  footer {
+  padding: 10px;
+  }
+  
+  footer p {
+  font-size: 0.7rem;
+  }
+}
+  width p {
+  max-width: 1200px}
+
+/* Apply a hover effect to all anchor tags within the header */
+header a:hover {
+  color: #BFA393;
+  }
+  
+  /* Apply an active effect to the currently selected anchor tag in the header */
+  header a:active {
+  background-color: #3F2E40;
+  color: #BFA393;
+  }
+  
+  /* Apply a visited effect to previously selected anchor tags in the header */
+  header a:visited {
+  color: #071040;
+  }
+  
+  /* Apply a first-line style to the first line of each paragraph within the main section */
+  main p:first-line {
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  
+  /* Apply a hover effect to all images within the gallery section */
+  #gallery img:hover {
+  border: 4px solid #071040;
+  opacity: 0.8;
+  }
+  
+  /* Apply a hover effect to all headings within the gallery section */
+  #gallery h3:hover {
+  color: #BFA393;
+  }
+  
+  /* Apply a hover effect to all paragraphs within the gallery section */
+  #gallery p:hover {
+  color: #3F2E40;
+  font-weight: bold;
+  }
+  
+  /* Apply a visited effect to previously selected headings within the gallery section */
+  #gallery h3:visited {
+  color: #071040;
+  }
+  
+  /* Apply a visited effect to previously selected paragraphs within the gallery section */
+  #gallery p:visited {
+  color: #3F2E40;
+  }
+  
+  /* Apply a hover effect to all links within the footer section */
+  footer a:hover {
+  color: #BFA393;
+  }
+  
+  /* Apply a visited effect to previously selected links within the footer section */
+  footer a:visited {
+  color: #071040;
+  }
+  
+  //* Apply a hover
+
+/* Add a hover effect to the submit button in the contact form */
+form input[type="submit"]:hover {
+  background-color: #3F2E40;
+  color: #BFA393;
+  cursor: pointer;
+  }
+  
+  /* Apply a style to the success message in the contact form */
+  .success-message {
+  background-color: #D3967C;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  }
+  
+  /* Apply a style to the error message in the contact form */
+  .error-message {
+  background-color: #B33E3A;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  }
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    background: rgb(7,16,64);
+    background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
+    /* Sets the background to a linear gradient using palette */
+    height: 100%;
+    }
+
+  
+  @font-face {
+    font-family: 'sedgewick';
+    src: url('/Fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+  /* Apply a hover effect to the submit button in the contact form */
+  form input[type="submit"]:hover {
+  background-color: #3F2E40;
+  color:#BFA393
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+body {
+  background: rgb(89,25,2);
+  background: linear-gradient(90deg, rgba(89,25,2,1) 17%, rgba(211,150,127,1) 46%, rgba(250,207,127,1) 84%);
+  /* Sets the background to a linear gradient using palette */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Draw a border 2px thick around ONLY the h3 element. */
+#artwork-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  border: 2px solid rgba(250,207,127,1);
+  /* Set a unique background color. */
+  background-color: rgba(211,150,127,1);
+}
+
+
+header {
+  background-color: #f8f4f4;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+h2 {
+  font-family: 'sedgewick', sans-serif;
+  font-size: 2em;
+  color: #0D0D0D;
+  text-align: center;
+  margin: 0.2em;
+  color: #BFA393;
+}
+ul {
+  font-family: 'sedgewick', sans-serif;
+}
+p {
+  font-family: 'sedgewick', sans-serif;
+  font-size: 2em;
+  color: #0D0D0D;
+  text-align: center;
+  margin: 0.2em;
+  color: #BFA393;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #FACF7F;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  section {
+  margin-bottom: 40px;
+  }
+  
+  section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+  
+  .artwork img {
+  max-width: 100%;
+  }
+  
+
+  .artwork p {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  footer p {
+  font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  nav {
+  margin-top: 20px;
+  }
+  
+  nav ul {
+  flex-direction: column;
+  }
+  
+  nav ul li {
+  margin-right: 0;
+  margin-bottom: 10px;
+  }
+  
+  main {
+  padding: 20px 10px;
+  }
+  
+  .artwork {
+  margin-bottom: 20px;
+  }
+  
+  .artwork h3 {
+  font-size: 1.2rem;
+  }
+  
+  footer {
+  padding: 10px;
+  }
+  
+  footer p {
+  font-size: 0.7rem;
+  }
+}
+  width p {
+  max-width: 1200px}
+
+  body {
+    background: rgb(7,16,64);
+    background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
+    /* Sets the background to a linear gradient from dark blue to linen */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'sedgewick', sans-serif; /* Use the custom font for the whole page */
+  }
+  
+  .myDiv {
+    border: 40px #3F4B59;
+    background-color:#BFA393;    
+    text-align:center;
+  }
+  
+  div {
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma;
+    width: 100%;
+  }
+  
+  /* Draw a border 4px thick around ONLY the h3 element. */
+  .artwork-title {
+    font-size: 1.5rem;
+    margin: 40px;
+    border: 4px solid #071040;
+    /* Set a unique background color. */
+    background-color: #3F4B59;
+  }
+  body {
+    background: rgb(7,16,64);
+    background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
+    /* Sets the background to a linear gradient from dark blue to linen */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'sedgewick', sans-serif; /* Use the custom font for the whole page */
+  }
+
+  .myDiv {
+    border: 40px #3F4B59;
+    background-color:#BFA393;    
+    text-align:center;
+  }
+  
+  div {
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma;
+    width: 100%;
+  }  
