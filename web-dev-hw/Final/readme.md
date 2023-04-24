@@ -9,5 +9,5 @@ Responsive web design is important because it allows websites to adapt to differ
 
 <br>
 
-https://smores94.github.io/Rose-Krieg-MART341-WebDesign/web-dev-hw/Assignment11/Pages/index.html
+https://smores94.github.io/Rose-Krieg-MART341-WebDesign/web-dev-hw/Final/Pages/index.html
 
