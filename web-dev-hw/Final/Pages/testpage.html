@@ -5,68 +5,163 @@
     <meta name="description" content="HTML Head Elements">
     <meta name="author" content="Rose Krieg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bat Cookie Company</title>  
+    <title>Western Art Institute</title>  
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <head>
+      <title>Art Education</title>
 
-    <main>
-      <section id="hero">
-        <img src="../Img/logo.png" alt="Bat Cookie Company logo">
-        <img src="../Img/flyingbats.png" alt="Flying bats">
-      </section>
+  <style>
+    body {
+    background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  
+  .menu {
+    position: fixed; /* fixed menu bar */
+    top: 0;
+    right: 0;
+    background-color: #162D59;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
 
-      <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team dedicated to making the best bat cookies ever! Cookies for bats? Bat-shaped cookies? Who knows!</p>
-      </section>
+  #video-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+  }
+  
+  #video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-      <section id="gallery">
-        <h2>Batastic Art</h2>
-        <div class="artwork">
-          <img src="../Img/batdelivery.JPG" alt="Bat delivery artwork">
-          <h3 class="artwork-title">Bat's post delivery by schastlivaya-ch on DeviantArt</h3>
-          <p>For the witchcraft challenge. His name is Ferdinand and he delivers witch's letter with agreement to visit sabbath</p>
+</style>
+    </head>
+    <body>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="../Pages\Artists.html">Artists of 2023</a>
+        <a href="../Pages\Events.html">Events</a>
+        <a href="../Pages\education.html">Education</a>
+        <a href="../Pages\contact.html">Contact</a>
+      </div>
+  
+      <div id="video-container">
+        <video controls autoplay >
+          <source src="../Media\WesternArtInstituteblue.mp4" type="video/mp4">
+          <source src="../Media\WesternArtInstituteblue.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+  
+      <!-- rest of the webpage content goes here -->
+  
+    </body>
+    <head>
+      <title>Email List Popup</title>
+      <style>
+      /* Style for popup overlay */
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(2, 2, 43, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+    
+      /* Style for popup container */
+      .popup {
+        position: relative;
+        background-color: #fff;
+        padding: 20px;
+        max-width: 500px;
+        max-height: 500px;
+        overflow-y: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+    
+      /* Style for close button */
+      .popup .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+      }
+    
+      /* Style for form */
+      .popup form {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      /* Style for form input */
+      .popup form input[type="email"] {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      </style>
+    </head>
+    <body>
+      <!-- Popup overlay -->
+      <div class="overlay">
+        <!-- Popup container -->
+        <div class="popup">
+          <!-- Close button -->
+          <span class="close" onclick="closePopup()">X</span>
+          <!-- Popup content -->
+          <h2>Join our email list</h2>
+          <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+          </form>
         </div>
-        <div class="artwork">
-          <img src="../Img/floralchiroptera.jpg" alt="Floral chiroptera artwork">
-          <h3 class="artwork-title">Floral chiroptera</h3>
-          <p>A large bat meandering through flowers</p>
-        </div>
-        <div class="artwork">
-          <img src="../Img/lesserasianvampire.jpg" alt="Asian Lesser False Vampire Bat artwork">
-          <h3 class="artwork-title">Asian Lesser False Vampire Bat</h3>
-          <p>Watercolor on paper; Kolkata (Calcutta), West Bengal state, India; ca. 1790.  For the British men and women who went to India, the study of natural history was both scientific inquiry and fashionable pastime. They trained Indian artists, often skilled court painters seeking new patronage, to record the country's flora and fauna with scientific precision. The elegantly composed
-            <section id="contact">
-              <h2>Contact Us</h2>
-              <form action="submit-form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
-
-<label for="message">Message:</label>
-<textarea id="message" name="message" required></textarea>
-
-<input type="submit" value="Send">
-</form>
-</section>
-<footer>
-  <ul>
-    <li><a href="https://www.facebook.com/Bat-Cookie-Company-105470585244395">Facebook</a></li>
-    <li><a href="https://twitter.com/BatCookieCo">Twitter</a></li>
-    <li><a href="https://www.instagram.com/batcookieco/?hl=en">Instagram</a></li>
-  </ul>
-</footer>
-</body>
-</html>
+      </div>
+      <!-- Button to open popup -->
+      <button onclick="openPopup()">Join our email list</button>
+    
+      <!-- JavaScript code to handle the popup -->
+      <script>
+        function openPopup() {
+          document.querySelector('.overlay').style.display = 'flex';
+        }
+    
+        function closePopup() {
+          document.querySelector('.overlay').style.display = 'none';
+        }
+      </script>
+    </body>
+  </html>
+    </body>
+    </html>

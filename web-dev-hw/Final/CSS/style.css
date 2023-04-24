@@ -5,41 +5,101 @@
   font-style: normal;
 }
 
-.lights-container {
-  position: relative;
+body {
+  background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
+  background-repeat: repeat;
+  background-size: auto;
 }
 
-.lights-container::before {
-  content: "";
+.logo {
+  position: fixed; /* stationary logo at the top */
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.menu {
+  position: fixed; /* fixed menu bar */
+  top: 0;
+  right: 0;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#video-container {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+#video-container video {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.2);
-  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
-.lights-container img {
+/* Style for popup overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 43, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Style for popup container */
+.popup {
   position: relative;
-  z-index: 2;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.lights-container .twinkle {
-  animation: twinkle 1s ease-in-out infinite;
+/* Style for close button */
+.popup .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
 }
 
-@keyframes twinkle {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+/* Style for form */
+.popup form {
+  display: flex;
+  flex-direction: column;
 }
+
+/* Style for form input */
+.popup form input[type="email"]
+
 
 
 * {
