@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="HTML Head Elements">
-    <meta name="author" content="Rose Krieg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Art Institute</title>  
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
-    <head>
-      <title>Art Education</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML Head Elements">
+  <meta name="author" content="Rose Krieg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Western Art Institute</title>  
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+    body {
+    background-image: url("../Img/bluepaper.png");
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .typewriter {
+    overflow: hidden;
+    border-right: .15em solid rgb(81, 53, 2);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 7s steps(30, end),
+               blink-caret .75s step-end infinite;
+    font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
+  }
+  </style>
+</head>
+<body>
+  <div class="myDiv">
+    <img src="../Img/nomidlogo.png" style="width:600px;height:600px;">
+  </div>
+  <p class="typewriter">Western Art Institute</p>
+
+  <div class="menu">
+    <a href="../Pages/index.html">Home</a>
+    <a href="../Pages/Artists.html">Artists of 2023</a>
+    <a href="../Pages/Events.html">Events</a>
+    <a href="../Pages/education.html">Education</a>
+    <a href="../Pages/contact.html">Contact</a>
+    <a href="../Pages\About.html">About Us</a>
+  </div>
 
   <style>
     body {
@@ -17,47 +49,58 @@
     background-repeat: repeat;
     background-size: auto;
   }
-  
-   
-
+     
 </style>
     </head>
-    <body>
-      <div class="menu">
-        <a href="#">Home</a>
-        <a href="#">Artists of 2023</a>
-        <a href="#">Events</a>
-        <a href="#">Education</a>
-        <a href="#">Contact</a>
-      </div>
-  
-      
+        
       <!-- rest of the webpage content goes here -->
       <body>
         <div class="logo">
-          <img src="../Media\WesternArtInstituteblue.mp4" alt="Art Education" width="200" height="auto">
+          <img src="Media\WesternArtInstituteblue.mp4" alt="Art Education" width="200" height="auto">
         </div>
-        <div class="menu">
-          <a href="#">Home</a>
-          <a href="#">Artists of 2023</a>
-          <a href="#">Events</a>
-          <a href="#">Education</a>
-          <a href="#">Contact</a>
-        </div>
-        <h1>Contact Us</h1>
-        <form action="submit-form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br><br>
-          <label for="subject">Subject:</label>
-          <input type="text" id="subject" name="subject" required><br><br>
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" required></textarea><br><br>
-          <input type="submit" value="Submit">
+
+
+
+
+<h1>Contact Us</h1>
+  <form action="submit-form.php" method="post" id="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="subject">Subject:</label>
+      <select id="subject" name="subject" required>
+      <option value="">-- Select a subject --</option>
+      <option value="Education Inquiry">Education Inquiry</option>
+      <option value="Events">Events</option>
+      <option value="Artists"at>Artists</option>
+      <option value="Other"at>Other</option>
+      </select><br><br><br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" required></textarea><br><br>
+  <input type="submit" value="Submit">
+  </form>
+       
+
+
+          
+        </center>
         </form>
       </body>
     </body>
   </html>
+
+
+  <footer>
+    <ul>
+      <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
+      <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
+      <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a>
+    </ul>
+  </footer>
+  <footer>
+    <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
+  </footer>
+
     </body>
     </html>

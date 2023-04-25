@@ -1,157 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="HTML Head Elements">
-    <meta name="author" content="Rose Krieg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Art Institute</title>  
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
-    <head>
-      <title>Art Education</title>
-
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML Head Elements">
+  <meta name="author" content="Rose Krieg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Western Art Institute</title>  
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
     body {
-    background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
+    background-image: url("../Img/bluepaper.png");
     background-repeat: repeat;
     background-size: auto;
   }
-  
-  .menu {
-    position: fixed; /* fixed menu bar */
-    top: 0;
-    right: 0;
-    background-color: #162D59;
-    padding: 20px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    z-index: 1;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-</style>
-    </head>
-    <body>
-      <div class="menu">
-        <a href="../Pages\index.html">Home</a>
-        <a href="../Pages\Artists.html">Artists of 2023</a>
-        <a href="../Pages\Events.html">Events</a>
-        <a href="../Pages\education.html">Education</a>
-        <a href="../Pages\contact.html">Contact</a>
-      </div>
-  
-      <div id="video-container">
-        <video controls autoplay >
-          <source src="../Media\WesternArtInstituteblue.mp4" type="video/mp4">
-          <source src="../Media\WesternArtInstituteblue.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-  
-      <!-- rest of the webpage content goes here -->
-  
-    </body>
-    <head>
-      <title>Email List Popup</title>
-      <style>
-      /* Style for popup overlay */
-      .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(2, 2, 43, 0.5);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
-      }
-    
-      /* Style for popup container */
-      .popup {
-        position: relative;
-        background-color: #fff;
-        padding: 20px;
-        max-width: 500px;
-        max-height: 500px;
-        overflow-y: auto;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      }
-    
-      /* Style for close button */
-      .popup .close {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 10px;
-        cursor: pointer;
-      }
-    
-      /* Style for form */
-      .popup form {
-        display: flex;
-        flex-direction: column;
-      }
-    
-      /* Style for form input */
-      .popup form input[type="email"] {
-        margin: 10px 0;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 16px;
-      }
-      </style>
-    </head>
-    <body>
-      <!-- Popup overlay -->
-      <div class="overlay">
-        <!-- Popup container -->
-        <div class="popup">
-          <!-- Close button -->
-          <span class="close" onclick="closePopup()">X</span>
-          <!-- Popup content -->
-          <h2>Join our email list</h2>
-          <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-      </div>
-      <!-- Button to open popup -->
-      <button onclick="openPopup()">Join our email list</button>
-    
-      <!-- JavaScript code to handle the popup -->
-      <script>
-        function openPopup() {
-          document.querySelector('.overlay').style.display = 'flex';
-        }
-    
-        function closePopup() {
-          document.querySelector('.overlay').style.display = 'none';
-        }
-      </script>
-<center>
-  <footer>
-    <ul>
-    <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
-    <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
-    <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a></li>
-    </ul>
-  </footer>
-  <footer>
-    <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
-  </footer>
-</center>
 
-    </body>
-  </html>
-    </body>
-    </html>
+
+
+  .typewriter {
+    overflow: hidden;
+    border-right: .15em solid rgb(81, 53, 2);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 10s steps(30, end),
+               blink-caret .75s step-end infinite;
+    font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
+  }
+  </style>
+</head>
+<body>
+  <div class="myDiv">
+    <img src="../Img/nomidlogo.png" style="width:600px;height:600px;">
+  </div>
+  <p class="typewriter">Western Art Institute</p>
+
+  <div class="menu">
+    <a href="../Pages/index.html">Home</a>
+    <a href="../Pages/Artists.html">Artists of 2023</a>
+    <a href="../Pages/Events.html">Events</a>
+    <a href="../Pages/education.html">Education</a>
+    <a href="../Pages/contact.html">Contact</a>
+    <a href="../Pages/About.html">About Us</a>
+  </div>
+  <!-- rest of the webpage content goes here -->
+ 
+
+    <footer>
+      <ul>
+        <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
+        <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
+        <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a>
+      </ul>
+    </footer>
+    <footer>
+      <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

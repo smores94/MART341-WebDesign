@@ -1,8 +1,144 @@
 
 @font-face {
-  font-family: 'Sedgwick';
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Sedgwick+Ave+Display&display=swap');
+  font-family: 'Comforter Brush', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
   font-style: normal;
+}
+
+
+ /* Style for popup container */
+ .popup {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+body {
+  background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
+  background-repeat: repeat;
+  background-size: auto;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 43, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+/* Style for close button */
+.popup .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  background-image: url(../Img/nomidlogo.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Set the height of the container to the desired value */
+}
+
+.typewriter {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-right: .15em solid rgb(81, 53, 2);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 6.5s steps(30, end), blink-caret .75s step-end infinite;
+  font-size: 48px;
+  color: rgb(113, 75, 4); /* Set the color of the text to make it visible on top of the image */
+  font-family: 'Comforter Brush', cursive;
+}
+
+
+/* Style for form */
+.popup form {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  position: fixed; /* fixed menu bar */
+  top: 0;
+  right: 0;
+  background-color: #162D59;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style for form input */
+.popup form input[type="email"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.typewriter {
+  overflow: hidden; /* Ensures the text is not shown outside the box */
+  border-right: .15em solid rgb(81, 53, 2); /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the text on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 6s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #162D59 }
+}
+
+.menu {
+  position: fixed; /* fixed menu bar */
+  top: 0;
+  right: 0;
+  background-color: #162D59;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+.myDiv {
+  border: 40px double #FFF9F2;
+  background-color:#162D59;    
+  text-align:center;
 }
 
 body {
@@ -22,9 +158,9 @@ body {
   position: fixed; /* fixed menu bar */
   top: 0;
   right: 0;
-  background-color: #222;
+  background-color: #AB9685;
   padding: 20px;
-  color: #fff;
+  color: #735240;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -35,7 +171,7 @@ body {
 }
 
 .menu a {
-  color: #fff;
+  color: #735240;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -56,6 +192,14 @@ body {
   width: 100%;
   height: 100%;
 }
+/*delay popup*/
+
+function delayPopup() {
+  setTimeout(function() {
+    window.open('../Pages/index.html', '_blank', 'width=500,height=500');
+  }, 15000); // delay for 15 seconds
+}
+
 
 /* Style for popup overlay */
 .overlay {
@@ -81,6 +225,7 @@ body {
   overflow-y: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 /* Style for close button */
 .popup .close {
@@ -108,10 +253,6 @@ body {
   padding: 10;
 }
 
-body {
-  font-family: 'Sedgwick', sans-serif;
-  background-color: #f2f2f2;
-}
 
 body {
 background: rgb(7,16,64);
@@ -122,24 +263,9 @@ background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%
   padding: 0;
 }
 
-/* Draw a yellow border 2px thick around ONLY the h3 element. */
-#artwork-title {
-  font-size: 1.5rem;
-  margin: 20px 0;
-  border: 2px solid rgba(250,207,127,1);
-  /* Set a unique background color. */
-  background-color: rgba(211,150,127,1);
-}
 
 
-header {
-  background-color: #f8f4f4;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
+
 
 nav ul {
   display: flex;
@@ -514,8 +640,8 @@ main {
   }
   
   .myDiv {
-    border: 40px #3F4B59;
-    background-color:#BFA393;    
+    border: 40px #FFF9F2;
+    background-color:#162D59    
     text-align:center;
   }
   
@@ -543,14 +669,72 @@ main {
     font-family: 'sedgewick', sans-serif; /* Use the custom font for the whole page */
   }
 
-  .myDiv {
-    border: 40px #3F4B59;
-    background-color:#BFA393;    
-    text-align:center;
-  }
+
   
   div {
     text-align: center;
     font-family: Arial, Verdana, Tahoma;
     width: 100%;
   }  
+
+  #contact-form {
+    font-family: Arial, sans-serif; /* change the font family here */
+    font-size: 16px; /* change the font size here */
+    font-weight: bold; /* change the font weight here */
+    color: #162D59; /* change the font color here */
+  }
+  
+  #contact-form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact-form input[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    color: #735240;
+    background-color: #FFF9F2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #FFF9F2;
+  }
+
+
+
+/*photo slider*/
+  .slider {
+    width: 75%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider img {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
