@@ -1,5 +1,44 @@
 
-const lights = document.querySelector('.lights-container img');
-lights.classList.add('twinkle');
 
-
+  
+  // Get the images and the container
+  const slider = document.querySelector('.slider');
+  const images = document.querySelectorAll('.slider img');
+  
+  // Set the initial position of the images
+  let leftPosition = 0;
+  images.forEach(image => {
+    image.style.left = leftPosition + '%';
+    leftPosition += 100;
+  });
+  
+  // Animate the images
+  let currentImageIndex = 0;
+  setInterval(() => {
+    // Move the current image off the screen
+    images[currentImageIndex].style.left = '-100%';
+  
+    // Move the next image onto the screen
+    currentImageIndex++;
+    if (currentImageIndex >= images.length) {
+      currentImageIndex = 0;
+    }
+    images[currentImageIndex].style.left = '0';
+  
+    // Request the next animation frame for smooth animation
+    window.requestAnimationFrame(() => {
+      images[currentImageIndex].style.transition = 'none';
+      images[currentImageIndex].style.left = '100%';
+      window.requestAnimationFrame(() => {
+        images[currentImageIndex].style.transition = 'all 1s';
+        images[currentImageIndex].style.left = '0';
+      });
+    });
+  }, 3000);
+  
+  
+function delayPopup() {
+    setTimeout(function() {
+      window.open('../Pages/index.html', '_blank', 'width=500,height=500');
+    }, 15000); // delay for 15 seconds
+  }
