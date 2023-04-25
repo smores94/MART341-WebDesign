@@ -11,7 +11,7 @@
     image.style.left = leftPosition + '%';
     leftPosition += 100;
   });
-  
+
   // Animate the images
   let currentImageIndex = 0;
   setInterval(() => {

@@ -642,7 +642,7 @@ main {
   .myDiv {
     border: 40px #FFF9F2;
     background-color:#162D59    
-    text-align:center;
+    text-align; center:
   }
   
   div {
@@ -687,7 +687,7 @@ main {
   #contact-form label {
     display: inline-block;
     width: 100px;
-    text-align: right;
+    text-align: center ;
     margin-right: 10px;
   }
   
