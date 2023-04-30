@@ -8,6 +8,7 @@
   <title>Western Art Institute</title>  
   <link rel="stylesheet" type="text/css" href="../CSS/style.css">
   <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
     body {
@@ -26,7 +27,21 @@
                blink-caret .75s step-end infinite;
     font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
   }
-  </style>
+    body {
+    background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  .overlay {
+  font-family: "Arial", sans-serif; /* Set font family for the overlay */
+}
+
+.popup {
+  font-family: "Times New Roman", serif; /* Set font family for the popup */
+}
+
+
+</style>
 </head>
 <body>
   <div class="myDiv">
@@ -43,14 +58,7 @@
     <a href="../Pages\About.html">About Us</a>
   </div>
 
-  <style>
-    body {
-    background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
-    background-repeat: repeat;
-    background-size: auto;
-  }
-     
-</style>
+ 
     </head>
         
       <!-- rest of the webpage content goes here -->
@@ -58,7 +66,25 @@
         <div class="logo">
           <img src="Media\WesternArtInstituteblue.mp4" alt="Art Education" width="200" height="auto">
         </div>
+        <button onclick="showPopup()">Open Popup</button>
 
+        <div class="overlay" id="popupOverlay">
+          <div class="popup">
+            <h2>Western Art Institute</h2>
+            <p>Sign up for our Quarterly Newsletter - Brushstrokes!</p>
+            <button class="close" onclick="hidePopup()">Close Popup</button>
+          </div>
+        </div>
+      
+        <script>
+          function showPopup() {
+            document.getElementById("popupOverlay").style.display = "flex";
+          }
+      
+          function hidePopup() {
+            document.getElementById("popupOverlay").style.display = "none";
+          }
+        </script>
 
 
 <center>
@@ -68,12 +94,16 @@
   <input type="text" id="name" name="name" required><br><br>
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" required><br><br>
+  <label for="email">Want to receive "Brushstrokes" our quarterly newsletter?</label>
+  <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+  <br><br>
   <label for="subject">Subject:</label>
       <select id="subject" name="subject" required>
       <option value="">-- Select a subject --</option>
       <option value="Education Inquiry">Education Inquiry</option>
       <option value="Events">Events</option>
       <option value="Artists"at>Artists</option>
+      <option value="Newsletter"at>Newsletter Question</option>
       <option value="Other"at>Other</option>
       </select><br><br><br><br>
   <label for="message">Message:</label><br>
@@ -82,26 +112,26 @@
 </center>
   </form>
        
-
-
-          
-        </center>
-        </form>
-      </body>
-    </body>
+  </form>
+  <br>
+  <br>
+  <br>
+  </body>
+  </body>
   </html>
 
 
+     
   <footer>
     <ul>
       <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
       <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
-      <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a>
-    </ul>
-  </footer>
-  <footer>
-    <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
-  </footer>
+      <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a></li>
+      <br>
+      <br>
+      <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
+      </ul>
+    </footer>
 
     </body>
     </html>

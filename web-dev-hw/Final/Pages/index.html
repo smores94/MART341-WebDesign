@@ -5,29 +5,125 @@
   <meta name="description" content="HTML Head Elements">
   <meta name="author" content="Rose Krieg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Western Art Institute</title>  
+  <title>Art Education</title>
   <link rel="stylesheet" type="text/css" href="../CSS/style.css">
   <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
     body {
-    background-image: url("../Img/bluepaper.png");
-    background-repeat: repeat;
-    background-size: auto;
-  }
+      background-image: url("../Img/bluepaper.png");
+      background-repeat: repeat;
+      background-size: auto;
+    }
 
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid rgb(81, 53, 2);
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation: typing 10s steps(30, end),
+                 blink-caret .75s step-end infinite;
+      font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
+    }
 
+    h1 {
+      font-family: 'Comforter Brush', cursive;;
+      color: #152340;
+      font-size: 38px;
+    }
 
-  .typewriter {
-    overflow: hidden;
-    border-right: .15em solid rgb(81, 53, 2);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 10s steps(30, end),
-               blink-caret .75s step-end infinite;
-    font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
-  }
+    p {
+      font-family: 'Castoro&display', sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: left;
+      margin: 0 100px; /* Adds 50 pixels of left and right margin */
+      padding: 10px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .menu a {
+      color: #152340;
+      font-size: 16px;
+      font-family: 'Castoro Titling', sans-serif;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .menu a:hover {
+      color: #ffffff;
+      background-color: #152340;
+      transition: 0.3s;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv img {
+      width: 600px;
+      height: 600px;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 60%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: rgb(81, 53, 2);
+      }
+    }
+    /* styles for the slider */
+  .slider {
+        position: center;
+        justify-content: center;
+        max-width: 100%;
+        max-height: 98%;
+        display: flex;
+        overflow: hidden;
+        padding: 10px; /* Add 20 pixels of padding around the slider */
+
+      }
+
+      .slider img {
+        position: center;
+        justify-content: center;
+        top: 0;
+        max-width: 30%;
+        max-height: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 20px; /* Add 20 pixels of padding around the slider */
+        object-fit: cover;
+      }
+
+  </style>
+</head>
   </style>
 </head>
 <body>
@@ -45,17 +141,78 @@
     <a href="../Pages/About.html">About Us</a>
   </div>
   <!-- rest of the webpage content goes here -->
- 
 
-    <footer>
-      <ul>
-        <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
-        <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
-        <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a>
-      </ul>
-    </footer>
-    <footer>
+       <div class="wrapper">
+        <div class="slider">
+          <img src="../Img/arapahoindianbrentlearned.jpg">
+          <img src="../Img/BrettAllenJohnsonInALandofSageandMesas.JPG">
+          <img src="../Img/coltidolintothenight.jpg">
+          <img src="../Img/DarciePeetHalfHourTilSundown.JPG">
+          <img src="../Img/dickidolNightTraveler.jpg">
+          <img src="../Img/DryasDustJimBortz.jpg">
+          <img src="../Img/JeremyLipkingAMothersBlessing.JPG">
+          <img src="../Img/JohnColemanOracleoftheBuffaloNation.JPG">
+          <img src="../Img/JohnPerryBaumlinCliffDweller.JPG">
+          <img src="../Img/KennethPelokeLoneStar.JPG">
+          <img src="../Img/KiraFerchoWildHorses.jpeg">
+          <img src="../Img/KylePolzinBuffaloShield.JPG">
+          <img src="../Img/LoganMaxwellHagegeTheManFromBylas.JPG">
+          <img src="../Img/MarkMaggioriHoldOnToWhatIsGood.JPG">
+          <img src="../Img/NikitaCoulombeYourTimeWillCome.JPG">
+          <img src="../Img/RioOnTheRocks2MauraAllen.jpg">
+          <img src="../Img/RosetaSantiagoUnderDixonSkies.JPG">
+          <img src="../Img/TAllenLawsonTheTwoofUs.JPG">
+          <img src="../Img/toddconnorshadowriders.jpg">
+          <img src="../Img/WhitneyGardnerMonumentofDust.JPG">
+          </div>
+          <script>
+            // JavaScript code goes here
+            // Get the images and the container
+            const slider = document.querySelector('.slider');
+            const images = document.querySelectorAll('.slider img');
+            
+            // Set the initial position of the images
+            let leftPosition = 0;
+            images.forEach(image => {
+              image.style.left = leftPosition + '%';
+              leftPosition += 100;
+            });
+          
+            // Animate the images
+            let currentImageIndex = 0;
+            setInterval(() => {
+            // Move the current image off the screen
+            images[currentImageIndex].style.left = '-100%';
+            
+            // Move the next image onto the screen
+            currentImageIndex++;
+            if (currentImageIndex >= images.length) {
+            currentImageIndex = 0;
+            }
+            images[currentImageIndex].style.left = '0';
+            
+            // Request the next animation frame for smooth animation
+            window.requestAnimationFrame(() => {
+            images[currentImageIndex].style.transition = 'none';
+            images[currentImageIndex].style.left = '100%';
+            window.requestAnimationFrame(() => {
+            images[currentImageIndex].style.transition = 'all 1s';
+            images[currentImageIndex].style.left = '0';
+            });
+            });
+            }, 5000);
+            
+          </script>
+    
+  <footer>
+    <ul>
+      <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
+      <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
+      <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a></li>
+      <br>
+      <br>
       <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
+      </ul>
     </footer>
 
 </body>

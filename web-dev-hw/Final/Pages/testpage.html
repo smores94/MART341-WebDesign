@@ -5,58 +5,126 @@
   <meta name="description" content="HTML Head Elements">
   <meta name="author" content="Rose Krieg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Western Art Institute</title>  
+  <title>Art Education</title>
   <link rel="stylesheet" type="text/css" href="../CSS/style.css">
   <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
     body {
-    background-image: url("../Img/bluepaper.png");
-    background-repeat: repeat;
-    background-size: auto;
-  }
+      background-image: url("../Img/bluepaper.png");
+      background-repeat: repeat;
+      background-size: auto;
+    }
 
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid rgb(81, 53, 2);
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation: typing 10s steps(30, end),
+                 blink-caret .75s step-end infinite;
+      font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
+    }
 
+    h1 {
+      font-family: 'Comforter Brush', cursive;;
+      color: #152340;
+      font-size: 38px;
+    }
 
-  .typewriter {
-    overflow: hidden;
-    border-right: .15em solid rgb(81, 53, 2);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 1s steps(30, end),
-               blink-caret .75s step-end infinite;
-    font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
-  }
+    p {
+      font-family: 'Castoro Titling', sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: left;
+      margin: 0 100px; /* Adds 50 pixels of left and right margin */
+      padding: 10px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .menu a {
+      color: #152340;
+      font-size: 16px;
+      font-family: 'Castoro Titling', sans-serif;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .menu a:hover {
+      color: #ffffff;
+      background-color: #152340;
+      transition: 0.3s;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv img {
+      width: 600px;
+      height: 600px;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: rgb(81, 53, 2);
+      }
+    }
+
   </style>
 </head>
 <body>
-  <div class="myDiv">
-    <img src="../Img/nomidlogo.png" style="width:600px;height:600px;">
-  </div>
-  <p class="typewriter">Western Art Institute</p>
-
-  <div class="menu">
+  
+  </style>
+</head>
+<body>
+  <!-- Navigation menu -->
+  <nav class="menu">
     <a href="../Pages/index.html">Home</a>
     <a href="../Pages/Artists.html">Artists of 2023</a>
     <a href="../Pages/Events.html">Events</a>
     <a href="../Pages/education.html">Education</a>
     <a href="../Pages/contact.html">Contact</a>
     <a href="../Pages/About.html">About Us</a>
-  </div>
-  <!-- rest of the webpage content goes here -->
- 
-
-    <footer>
-      <ul>
-        <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
-        <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
-        <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a>
-      </ul>
-    </footer>
-    <footer>
-      <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+  </nav>
+  <!-- Main content -->
+  <main>
+    <div class="logo">
+      <img src="../Media/WesternArtInstituteblue.mp4" alt="Art Education">
+    </div>
+    <div class="myDiv">
+      <img src="../Img/nomidlogo.png" alt="Western Art Institute">
+    </div>
+    <p class="typewriter">About Us</p>
+    <p>Welcome to the Western Art Institute, an online artist collective, gallery, and education
+      resource dedicated to promoting the rich cultural heritage and artistic traditions of the
+      American West.</p>
+    <p>Our mission is to provide a platform for

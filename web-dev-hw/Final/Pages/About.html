@@ -1,76 +1,184 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="HTML Head Elements">
-    <meta name="author" content="Rose Krieg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Art Institute</title>  
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
-    <head>
-      <title>Art Education</title>
-
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML Head Elements">
+  <meta name="author" content="Rose Krieg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Education</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  <link rel="icon" href="../Img/favicon.ico" type="image/x-icon">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
     body {
-    background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
-    background-repeat: repeat;
-    background-size: auto;
-  }
-  
-   
+      background-image: url("../Img/bluepaper.png");
+      background-repeat: repeat;
+      background-size: auto;
+    }
 
-</style>
-    </head>
-    <body>
-      <div class="menu">
-        <a href="../Pages/index.html">Home</a>
-        <a href="../Pages/Artists.html">Artists of 2023</a>
-        <a href="../Pages/Events.html">Events</a>
-        <a href="../Pages/education.html">Education</a>
-        <a href="../Pages/contact.html">Contact</a>
-        <a href="../Pages/About.html">About Us</a>
-      </div>
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid rgb(81, 53, 2);
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation: typing 10s steps(30, end),
+                 blink-caret .75s step-end infinite;
+      font-family: 'Comforter Brush', cursive; /* Replace with your preferred font */
+    }
+
+    h1 {
+      font-family: 'Comforter Brush', cursive;;
+      color: #152340;
+      font-size: 38px;
+    }
+
+    p {
+      font-family: 'Castoro&display', sans-serif;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: left;
+      margin: 0 100px; /* Adds 50 pixels of left and right margin */
+      padding: 10px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .menu a {
+      color: #152340;
+      font-size: 16px;
+      font-family: 'Castoro Titling', sans-serif;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .menu a:hover {
+      color: #ffffff;
+      background-color: #152340;
+      transition: 0.3s;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .myDiv img {
+      width: 600px;
+      height: 600px;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 60%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: rgb(81, 53, 2);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  
+  </style>
+</head>
+<body>
+  <!-- Navigation menu -->
+  <nav class="menu">
+    <a href="../Pages/index.html">Home</a>
+    <a href="../Pages/Artists.html">Artists of 2023</a>
+    <a href="../Pages/Events.html">Events</a>
+    <a href="../Pages/education.html">Education</a>
+    <a href="../Pages/contact.html">Contact</a>
+    <a href="../Pages/About.html">About Us</a>
+  </nav>
+  <!-- Main content -->
+  <main>
+    <div class="logo">
+      <img src="../Media/WesternArtInstituteblue.mp4" alt="Art Education">
+    </div>
+    <div class="myDiv">
+      <img src="../Img/nomidlogo.png" alt="Western Art Institute">
+    </div>
+    <p class="typewriter">About Us</p>
   
       
       <!-- rest of the webpage content goes here -->
       <body>
-        <div class="logo">
-          <img src="../Media\WesternArtInstituteblue.mp4" alt="Art Education" width="200" height="auto">
-        </div>
-        <div class="menu">
-          <a href="../Pages\index.html">Home</a>
-          <a href="../Pages\Artists.html">Artists of 2023</a>
-          <a href="../Pages\Events.html">Events</a>
-          <a href="../Pages\education.html">Education</a>
-          <a href="../Pages\contact.html">Contact</a>
-        </div>
-        <h1>Contact Us</h1>
-        <form action="submit-form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br><br>
-          <label for="subject">Subject:</label>
-          <input type="text" id="subject" name="subject" required><br><br>
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" required></textarea><br><br>
-          <input type="submit" value="Submit">
-        </form>
+ 
+   <p>Welcome to the Western Art Institute, an online artist collective, gallery, and education
+     resource dedicated to promoting the rich cultural heritage and artistic traditions of the 
+     American West.</p>
+
+     <p>Our mission is to provide a platform for artists, collectors, and enthusiasts to explore, 
+    learn, and create through a diverse range of artistic mediums and styles that reflect the 
+    unique history and natural beauty of the Western United States. Whether you are a seasoned 
+    artist or a beginner, a collector or an admirer, we invite you to join us in celebrating 
+    the beauty and diversity of Western art.</p>
+    
+    <p>As an online artist collective, we showcase the work of a wide range of talented artists 
+    who specialize in Western-themed art. From landscape paintings to bronze sculptures, from 
+    traditional to contemporary styles, our gallery features a rich variety of artistic expressions 
+    that capture the spirit and essence of the American West.</p>
+    
+    <p>In addition to our gallery, we also offer a comprehensive range of educational resources, 
+    including online courses, workshops, and tutorials designed to help artists of all levels 
+    improve their skills and techniques. Our experienced instructors are passionate about sharing 
+    their knowledge and expertise, and our interactive online platform allows students to connect 
+    with instructors and peers from all over the world.</p>
+    
+    <p>At the Western Art Institute, we are dedicated to providing a welcoming and inclusive community
+     where artists and enthusiasts can come together to share their love of Western art. Whether 
+     you are looking to explore the world of Western art for the first time or are a seasoned artist 
+     looking to take your skills to the next level, we invite you to join us and become a part of 
+     our vibrant and dynamic community.</p>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
       </body>
     </body>
-    <center>
-      <footer>
-        <ul>
+     
+    <footer>
+      <center>
+      <ul>
         <a href="https://www.Western-Art-Institute.com/Western-Art-Institute-105470585244395">Facebook</a></li>
         <a href="https://twitter.com/WesternArtInstitute">Twitter</a></li>
         <a href="https://www.instagram.com/WesternArtInstitute/?hl=en">Instagram</a></li>
+        <br>
+        <br>
+        <p>&copy; 2023 Western Art Institute. All rights reserved.</p>  </center>
         </ul>
+    
       </footer>
-      <footer>
-        <p>&copy; 2023 Western Art Institute. All rights reserved.</p>
-      </footer>
-    </center>
     
         </body>
       </html>

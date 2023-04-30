@@ -35,10 +35,3 @@
       });
     });
   }, 3000);
-  
-  
-function delayPopup() {
-    setTimeout(function() {
-      window.open('../Pages/index.html', '_blank', 'width=500,height=500');
-    }, 15000); // delay for 15 seconds
-  }

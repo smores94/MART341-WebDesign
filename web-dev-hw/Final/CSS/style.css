@@ -15,6 +15,7 @@
   max-height: 500px;
   overflow-y: auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: 'Comforter Brush', cursive;/* Set font family for the popup */
 }
 body {
   background-image: url("../Img/bluepaper.png"); /* dark blue textured background */
@@ -67,10 +68,13 @@ body {
 }
 
 
+
+
 /* Style for form */
 .popup form {
   display: flex;
   flex-direction: column;
+  font-family: 'Comforter Brush', cursive;
 }
 .menu {
   position: fixed; /* fixed menu bar */
@@ -313,11 +317,20 @@ main {
   }
   
   footer {
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
   background-color: #333;
-  color: #fff;
+  color: #FFF9F2;
   text-align: center;
   padding: 20px;
   }
+
+
+  
+
   
   footer p {
   font-size: 0.8rem;
@@ -355,7 +368,7 @@ main {
   }
   
   footer {
-  padding: 10px;
+  padding: 5px;
   }
   
   footer p {
@@ -493,6 +506,7 @@ body {
   padding: 0;
 }
 
+
 /* Draw a border 2px thick around ONLY the h3 element. */
 #artwork-title {
   font-size: 1.5rem;
@@ -629,16 +643,7 @@ main {
   width p {
   max-width: 1200px}
 
-  body {
-    background: rgb(7,16,64);
-    background: linear-gradient(103deg, rgba(7,16,64,1) 10%, rgba(191,163,147,1) 59%);
-    /* Sets the background to a linear gradient from dark blue to linen */
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'sedgewick', sans-serif; /* Use the custom font for the whole page */
-  }
-  
+ 
   .myDiv {
     border: 40px #FFF9F2;
     background-color:#162D59    
@@ -681,7 +686,7 @@ main {
     font-family: Arial, sans-serif; /* change the font family here */
     font-size: 16px; /* change the font size here */
     font-weight: bold; /* change the font weight here */
-    color: #162D59; /* change the font color here */
+    color: #ffffff; /* change the font color here */
   }
   
   #contact-form label {
@@ -697,7 +702,7 @@ main {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
-    color: inherit;
+    color: #152340;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -727,6 +732,7 @@ main {
     height: 600px;
     position: relative;
     overflow: hidden;
+    padding: 20px; /* Add 20 pixels of padding around the slider */
   }
   
   .slider img {
@@ -737,4 +743,63 @@ main {
     width: 100%;
   }
   
+ 
+  
+  img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center; /* Align the items vertically */
+  }
+  
+  .slider {
+    flex: 1;
+  }
+  
+  .content-box {
+    flex: 1;
+    background-color: #FFF9F2;
+    padding: 10px;
+    border: 1px solid #FFF9F2;
+    border-radius: 5px;
+    align-items: left; /* Align the items vertically */
+    justify-content: left; /* Align the items horizontally */
+  }
+
+
+  
+  img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .text-box {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
   
