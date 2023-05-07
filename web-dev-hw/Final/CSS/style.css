@@ -811,6 +811,12 @@ main {
       height: auto;
     }
 
+    /* Adjust the image slider for mobile */
+    .slider {
+      max-width: 100%; /* Set the maximum width to fill the screen */
+      height: auto; /* Maintain aspect ratio */
+    }
+
     body {
       background-image: url("../Img/bluepaper.png");
       background-repeat: repeat;
